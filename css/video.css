@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 80vw;
+    margin: 0 auto;
+    background-color: black;
+    color: yellowgreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;;
+}
+
+main>div {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+main figure{
+    border: 1px dotted yellowgreen;
+    flex: 0 0 40%;
+    border-radius: 5px;
+}
+
+main iframe {
+    width: 100%;
+}
+
+main figure figcaption{
+    font-style: italic;
+    text-align: center;
+    padding: 1%;
+}
